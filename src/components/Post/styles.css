@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.post {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+
+  height: 100%;
+
+  box-shadow: 5px 6px #0f0f0f;
+  border: 2px solid #eee;
+}
+
+.post .header {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.infor-profile {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 10px
+}
+
+
+.infor-profile #name {
+  font-weight: bold;
+  color: #595959;
+  font-size: 15px;
+}
+
+.infor-profile #date {
+  color: #595959;
+  font-size: 14px;
+}
+
+.post .profile {
+  width: 60px;
+
+  border-radius: 50%;
+}
