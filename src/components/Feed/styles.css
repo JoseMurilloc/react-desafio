@@ -1,4 +1,4 @@
-.container {
+.container-feed {
   background-color: #F8F8F8;
   width: 700px;
 
@@ -9,4 +9,35 @@
 
   padding: 20px;
   margin-top: 20px;
+
+  border: 5px solid rgb(142, 238, 118);
+}
+
+.container-postitem {
+  border: 5px solid rgb(241, 36, 9);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+
+  margin-bottom: 10px;
+}
+
+.infors {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 10px;
+}
+
+.infors span {
+  color: #333;
+}
+
+img {
+  border-radius: 50%;
+  width: 70px;
 }

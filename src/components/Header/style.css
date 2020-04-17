@@ -12,6 +12,20 @@ header {
   align-items: center;
 }
 
+.header {
+  width: 100%;
+  color: aliceblue;
+  padding: 20px;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: start;
+
+  align-items: center;
+}
+
 header .image {
   width: 150px;
 }
